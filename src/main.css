@@ -1,0 +1,40 @@
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  margin-bottom: 10px;
+}
