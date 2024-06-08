@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>FakeStore CRUD Explorer</title>
+  </head>
+  <body>
+    <header>FakeStore CRUD Explorer</header>
+    <main>
+      <section>
+        <div>
+          <h2>Adicionar novo usuário</h2>
+          <label for="nomeAd">Preencha:</label>
+          <input
+            type="text"
+            name="nomeAd"
+            id="nomeAd"
+            placeholder="Nome produto"
+          />
+          <input 
+            type="text" 
+            name="precoAd" 
+            id="precoAd" 
+            placeholder="Preço"
+          />
+          <input
+            type="text"
+            name="descAd"
+            id="descAd"
+            placeholder="Descrição"
+          />
+          <input
+            type="text"
+            name="categoriaAd"
+            id="categoriaAd"
+            placeholder="Categoria"
+          />
+          <button id="botao_criar">Criar</button>
+        </div>
+        <div id="responseAd"></div>
+      </section>
+
+      <section>
+        <div>
+          <h2>Visualizar usuário</h2>
+          <label for="idenVi">Selecione o ID:</label>
+          <select id="idenVi" name="idenVi">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+          </select>
+          <button id="botao_visualizar">Visualizar</button>
+        </div>
+        <div id="responseVi"></div>
+      </section>
+
+      <section>
+        <div>
+          <h2>Atualizar usuário</h2>
+          <label for="idenAt">Selecione o ID e preencha:</label>
+          <select id="idenAt" name="idenAt">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+          </select>
+          <input
+            type="text"
+            name="nomeAt"
+            id="nomeAt"
+            placeholder="Nome produto"
+          />
+          <input 
+            type="text" 
+            name="precoAt" 
+            id="precoAt" 
+            placeholder="Preço"
+          />
+          <input
+            type="text"
+            name="descAt"
+            id="descAt"
+            placeholder="Descrição"
+          />
+          <input
+            type="text"
+            name="categoriaAt"
+            id="categoriaAt"
+            placeholder="Categoria"
+          />
+          <button id="botao_atualizar">Atualizar</button>
+        </div>
+        <div id="responseAt"></div>
+      </section>
+
+      <section>
+        <div>
+          <h2>Excluir usuário</h2>
+          <label for="idenEx">Selecione o ID:</label>
+          <select id="idenEx" name="idenEx">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+          </select>
+          <button id="botao_excluir">Excluir</button>
+        </div>
+        <div id="responseEx"></div>
+      </section>
+    </main>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
