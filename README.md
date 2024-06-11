@@ -6,9 +6,11 @@ O Explorador de CRUD da FakeStore API é uma aplicação web simples desenvolvid
 
 ## Como Usar
 
-1. Clique no [link](https://miguel-willians.github.io/FakeStore-API-CRUD-Explorer/) para abrir a aplicação em seu navegador web.
+1. Clique neste [link](https://fakestore-api-crud-explorer.onrender.com) para abrir a aplicação em seu navegador web. 
 
-2. Use a interface para realizar operações CRUD na FakeStore API.
+2. Caso tenha problemas, acesse esse [link](https://miguel-willians.github.io/FakeStore-API-CRUD-Explorer/)
+
+3. Use a interface para realizar operações CRUD na FakeStore API.
 
 ## Observações
 
@@ -26,9 +28,11 @@ The FakeStore API CRUD Explorer is a simple web application developed as part of
 
 ## How to Use
 
-1. Click on the [link](https://miguel-willians.github.io/FakeStore-API-CRUD-Explorer/) to open the application in your web browser.
+1. Click on the [link](https://fakestore-api-crud-explorer.onrender.com) to open the application in your web browser.
 
-2. Use the interface to perform CRUD operations on the FakeStore API.
+2. If you encounter any issues, please visit this [link](https://miguel-willians.github.io/FakeStore-API-CRUD-Explorer/). 
+
+3. Use the interface to perform CRUD operations on the FakeStore API.
 
 ## Notes
 
